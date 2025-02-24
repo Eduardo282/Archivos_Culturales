@@ -1,0 +1,72 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'fonts.css';
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.file-icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+/* Para usar Patria */
+.patriaBold {
+  font-family: 'Patria', sans-serif;
+  font-weight: 700;
+  /*font-size: 18pt;*/
+}
+
+.patriaRegular {
+  font-family: 'Patria', sans-serif;
+  font-weight: 400;
+  /*font-size: 16pt;*/
+}
+
+.notoSansLightItalic{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.notoSansRegular{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;;
+}
+
+.notoSansMedium{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+}
+
+._7421c{
+  background-color: #611232;
+  color: #fff;
+}
+
+.whiteBg {
+  background-color: #fefefe;
+  color: black;
+}
+
+.whiteBgGobierno {
+  position: relative;
+  /* Otros estilos existentes */
+}
+
+.whiteBgGobierno::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/gobierno.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 2px;
+  opacity: 0.3; /* Ajusta este valor para cambiar la transparencia */
+  z-index: -1; /* Asegura que la imagen esté detrás del contenido */
+}

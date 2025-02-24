@@ -1,0 +1,42 @@
+
+/* Para Patria */
+@font-face {
+  font-family: 'Patria';
+  src: url('./assets/fonts/Patria/Patria_Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  /*font-size: 16pt;*/
+}
+
+@font-face {
+  font-family: 'Patria';
+  src: url('./assets/fonts/Patria/Patria_Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  /*font-size: 18pt;*/
+}
+
+/* Para Noto Sans */
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./assets/fonts/Noto Sans/NotoSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./assets/fonts/Noto Sans/NotoSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+/* Para las itálicas de Noto Sans */
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./assets/fonts/Noto Sans/NotoSans-LightItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+

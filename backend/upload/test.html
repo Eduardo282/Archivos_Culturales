@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Test</title>
+</head>
+<body>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="files[]" multiple>
+        <input type="submit" value="Upload">
+    </form>
+    <hr>
+    <h3>Uploaded Files:</h3>
+    <div id="files"></div>
+
+    <script>
+        fetch('list.php')
+            .then(response => response.json())
+            .then(data => {
+                const filesDiv = document.getElementById('files');
+                if (data.files.length > 0) {
+                    const list = data.files.map(file =>
+                        `<p><a href="${file.url}">${file.name}</a> (${file.size} bytes)</p>`
+                    ).join('');
+                    filesDiv.innerHTML = list;
+                } else {
+                    filesDiv.innerHTML = '<p>No files uploaded yet.</p>';
+                }
+            });
+    </script>
+</body>
+</html>
