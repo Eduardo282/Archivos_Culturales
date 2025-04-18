@@ -25,17 +25,17 @@ Esta aplicación está diseñada para preservar y compartir recursos relacionado
 
 ## Estructura del proyecto
 
->
-Archivos_Culturales/
-├── backend/           # Lógica del servidor (Express)
-├── src/
-│   ├── assets/        # Recursos estáticos
-│   ├── components/    # Componentes de React
-│   ├── App.tsx        # Componente principal
-│   └── ...
-├── index.html         # Punto de entrada HTML
-├── package.json       # Dependencias y scripts
-└── ...
+
+> Archivos_Culturales/
+> ├── backend/           # Lógica del servidor (Express)
+> ├── src/
+> │   ├── assets/        # Recursos estáticos
+> │   ├── components/    # Componentes de React
+> │   ├── App.tsx        # Componente principal
+> │   └── ...
+> ├── index.html         # Punto de entrada HTML
+> ├── package.json       # Dependencias y scripts
+> └── ...
 
 
 ## Instalación y uso
