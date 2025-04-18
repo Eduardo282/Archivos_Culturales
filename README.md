@@ -25,6 +25,7 @@ Esta aplicación está diseñada para preservar y compartir recursos relacionado
 
 ## Estructura del proyecto
 
+>
 Archivos_Culturales/
 ├── backend/           # Lógica del servidor (Express)
 ├── src/
@@ -35,6 +36,7 @@ Archivos_Culturales/
 ├── index.html         # Punto de entrada HTML
 ├── package.json       # Dependencias y scripts
 └── ...
+
 
 ## Instalación y uso
 
